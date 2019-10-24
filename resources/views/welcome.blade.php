@@ -63,7 +63,7 @@ bottomleft {
   
   <script>
   // Set the date we're counting down to
-  var countDownDate = new Date("October  25, 2019 15:37:25").getTime();
+  var countDownDate = new Date("October 28, 2019 15:37:25").getTime();
   // Update the count down every 1 second
   var countdownfunction = setInterval(function() {
     // Get todays date and time
