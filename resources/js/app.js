@@ -8,25 +8,29 @@ require('./bootstrap');
 
 window.Vue = require('vue');
 
-/**
- * The following block of code may be used to automatically register your
- * Vue components. It will recursively scan this directory for the Vue
- * components and automatically register them with their "basename".
- *
- * Eg. ./components/ExampleComponent.vue -> <example-component></example-component>
- */
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+import BootstrapVue from 'bootstrap-vue'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faFacebook } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-// const files = require.context('./', true, /\.vue$/i);
-// files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
+Vue.use(BootstrapVue)
+Vue.use(ElementUI);
+library.add(faFacebook)
 
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+Vue.component('font-awesome-icon', FontAwesomeIcon)
 
-/**
- * Next, we will create a fresh Vue application instance and attach it to
- * the page. Then, you may begin adding components to this application
- * or customize the JavaScript scaffolding to fit your unique needs.
- */
+Vue.config.productionTip = false
+
+Vue.component('carousel', require('./components/carousel.vue').default);
+Vue.component('navigation', require('./components/navigation.vue').default);
+Vue.component('services', require('./components/services.vue').default);
+Vue.component('cta', require('./components/cta.vue').default);
+Vue.component('b-footer', require('./components/footer.vue').default);
+
 
 const app = new Vue({
     el: '#app',
+    // render: h => h(App)
 });
