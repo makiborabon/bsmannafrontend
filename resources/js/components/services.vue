@@ -42,10 +42,10 @@
   
   @media (min-width: 910px){ 
     .mt-210{
-        margin-top: -210px;
+        margin-top: -239px;
     }
     .hotel-max-h{
-        max-height:  408px;
+        max-height:  461px;
     }
     .p-50{
         padding: 50px 0;
