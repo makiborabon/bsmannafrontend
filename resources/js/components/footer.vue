@@ -1,5 +1,5 @@
 <template>
-    <div style="background-image: linear-gradient(to right, #FABD52 , #EB9A2E);" class="footer">
+    <div style="background-image: linear-gradient(to right, #EB9A2E , #FABD52);" class="footer">
         <el-row :gutter="10" class="p-50">
             <el-col :xs="2" :sm="2" :md="2" :lg="2"><div class="grid-content bg-purple"></div></el-col>
             <el-col :xs="12" :sm="12" :md="10" :lg="6">
