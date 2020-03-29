@@ -12,5 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('default');
 });
+
+
+// Route::get('/google', function () {
+//     return view('test');
+// });
+
+
+// Route::get('/google', 'QuickStartController@loadCLient');
