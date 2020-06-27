@@ -89,9 +89,11 @@
         </div>
         <div class="col-lg-4">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="{{ asset('images/testimonial/avatar.png') }}" alt="">
-            <h5> - - - - -</h5>
-            <p class="font-weight-light mb-0">"- - - - - - - - - - - - - - - - - - - - -"</p>
+            <a href="https://www.facebook.com/photo.php?fbid=2957982834329103&set=a.240358212758259&type=3&theater">
+                <img class="img-fluid rounded-circle mb-3" src="{{ asset('images/testimonial/Mae R. Mirador.png') }}" alt="">
+            </a>
+            <h5> Mae R. Mirador</h5>
+            <p class="font-weight-light mb-0">"We availed their P999 promo. Their offer was very affordable and recommendable with same day delivery which had me surprised and COD! The masks were legit 3ply! Thank you BS Manna Marketing. May God bless you. - " </p>
           </div>
         </div>
         <div class="col-lg-4">
