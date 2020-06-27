@@ -84,7 +84,7 @@
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
             <img class="img-fluid rounded-circle mb-3" src="{{ asset('images/testimonial/pulis.jpg') }}" alt="">
             <h5>Compact 5, Police - Dau Mabalacat.</h5>
-            <p class="font-weight-light mb-0">"Malaking tulong po ito sa ating mga kapulisan! Thanks You so much !" - <strong>We donated alcohol for our frontliners during covid-19 crisis.</strong></p>
+            <p class="font-weight-light mb-0">"Malaking tulong po ito sa ating mga kapulisan! Thanks You so much !" - <strong> - extending hands to our frontliners during covid-19 crisis.</strong></p>
           </div>
         </div>
         <div class="col-lg-4">
