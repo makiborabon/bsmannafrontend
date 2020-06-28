@@ -385,22 +385,21 @@
       <option name="presentableId" value="Default" />
       <updated>1593122175650</updated>
       <workItem from="1593122176924" duration="17522000" />
-      <workItem from="1593301621518" duration="975000" />
+      <workItem from="1593301621518" duration="1463000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18497000" />
+    <option name="totallyTimeSpent" value="18985000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="23" width="1920" height="1057" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.25239617" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.25239617" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.5838641" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.5838641" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
